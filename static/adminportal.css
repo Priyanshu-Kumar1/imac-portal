@@ -1,0 +1,78 @@
+
+@font-face {
+    font-family: 'Sen';
+    src: url("fonts/Sen.ttf");
+}
+
+@font-face {
+    font-family: 'IBMPlexSansCondensed';
+    src: url("fonts/IBMPlexSans-Bold.ttf");
+}
+
+
+nav{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.navbar-brand{
+    font-family: "IBMPlexSansCondensed";
+    color: #363b3e;
+
+}
+
+.body-container{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+    top: 10%;
+
+}
+
+
+.name{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-family: "IBMPlexSansCondensed";
+    font-size: 20px;
+    color: #363b3e;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.request{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    color: #363b3e;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.user-request{
+    display: block;
+    width: 100%;
+    color: #363b3e;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.booking-request{
+    display: block;
+    width: 100%;
+    color: #363b3e;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+} 
+
+
+table{
+    width: 100%;
+    border-radius: 10px;
+}

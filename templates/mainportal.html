@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Toggle Class Example</title>
+  <style>
+    .close-labs-graphic-card {
+      background-color: lightblue;
+    }
+    .open-labs-graphic-card {
+      background-color: gray;
+    }
+  </style>
+</head>
+<body>
+  <div class="close-labs-graphic-card" id="graphic-card">Graphic Card</div>
+
+  <script>
+    // Get a reference to the element
+    var graphicCard = document.getElementById('graphic-card');
+
+    // Add a click event listener to the document
+    document.addEventListener('click', function(event) {
+      // Check if the clicked element is not the graphic card itself
+      if (event.target !== graphicCard) {
+        // Toggle the classes on the graphic card element
+        if (graphicCard.classList.contains('close-labs-graphic-card')) {
+          graphicCard.classList.remove('close-labs-graphic-card');
+          graphicCard.classList.add('open-labs-graphic-card');
+        } else {
+          graphicCard.classList.remove('open-labs-graphic-card');
+          graphicCard.classList.add('close-labs-graphic-card');
+        }
+      }
+    });
+  </script>
+</body>
+</html>
